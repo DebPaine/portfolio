@@ -3312,25 +3312,25 @@ table.alt tfoot {
 	background-color: #3896c2;
 }
 
-.wrapper.style1-alt {
+/* .wrapper.style1-alt {
 	background-color: #493382;
-}
+} */
 
 .wrapper.style2 {
 	background-color: #5052b5;
 }
 
-.wrapper.style2-alt {
+/* .wrapper.style2-alt {
 	background-color: #3e4094;
-}
+} */
 
 .wrapper.style3 {
 	background-color: #2e96c7;
 }
 
-.wrapper.style3-alt {
+/* .wrapper.style3-alt {
 	background-color: #30bfd8;
-}
+} */
 
 .wrapper.fullscreen {
 	display: -moz-flex;
