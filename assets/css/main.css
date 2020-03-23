@@ -1926,7 +1926,7 @@ button,
 	transition: border-color 0.2s ease;
 	background-color: transparent;
 	border: solid 1px !important;
-	border-color: rgba(255, 255, 255, 0.15) !important;
+	border-color: rgba(255, 255, 255, 0.281) !important;
 	border-radius: 3em;
 	color: #ffffff !important;
 	cursor: pointer;
@@ -2611,7 +2611,7 @@ input[type="radio"] + label:before {
 	display: block;
 	background: #ffffff;
 	border-radius: 100%;
-	color: #312450;
+	color: #df9323;
 	text-align: center;
 	line-height: 2.5em;
 	margin: 0 0 1.3em 0;
@@ -2622,7 +2622,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-	color: #5e42a6;
+	color: #ee9c32;
 }
 
 .wrapper.style1-alt .icon.major:before {
@@ -2638,7 +2638,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-	color: #b74e91;
+	color: #ee9c32;
 }
 
 .wrapper.style3-alt .icon.major:before {
@@ -3309,7 +3309,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-	background-color: #5e42a6;
+	background-color: #3896c2;
 }
 
 .wrapper.style1-alt {
@@ -3325,11 +3325,11 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-	background-color: #0d3d96;
+	background-color: #2e96c7;
 }
 
 .wrapper.style3-alt {
-	background-color: #953d75;
+	background-color: #30bfd8;
 }
 
 .wrapper.fullscreen {
@@ -3833,7 +3833,7 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:hover {
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(255, 255, 255, 0.6);
 }
 
 #sidebar nav a.active {
