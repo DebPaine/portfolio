@@ -3304,9 +3304,9 @@ table.alt tfoot {
 	}
 }
 
-.wrapper.alt {
+/* .wrapper.alt {
 	background-color: #261c3e;
-}
+} */
 
 .wrapper.style1 {
 	background-color: #3896c2;
@@ -3328,9 +3328,9 @@ table.alt tfoot {
 	background-color: #2e96c7;
 }
 
-/* .wrapper.style3-alt {
+.wrapper.style3-alt {
 	background-color: #30bfd8;
-} */
+}
 
 .wrapper.fullscreen {
 	display: -moz-flex;
