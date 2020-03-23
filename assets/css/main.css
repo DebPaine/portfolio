@@ -2625,25 +2625,25 @@ input[type="radio"] + label:before {
 	color: #ee9c32;
 }
 
-.wrapper.style1-alt .icon.major:before {
+/* .wrapper.style1-alt .icon.major:before {
 	color: #493382;
-}
+} */
 
 .wrapper.style2 .icon.major:before {
 	color: #5052b5;
 }
 
-.wrapper.style2-alt .icon.major:before {
+/* .wrapper.style2-alt .icon.major:before {
 	color: #3e4094;
-}
+} */
 
 .wrapper.style3 .icon.major:before {
 	color: #ee9c32;
 }
 
-.wrapper.style3-alt .icon.major:before {
+/* .wrapper.style3-alt .icon.major:before {
 	color: #953d75;
-}
+} */
 
 /* Image */
 
