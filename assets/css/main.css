@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
 
 html,
 body,
@@ -205,7 +205,7 @@ input,
 select,
 textarea {
 	color: rgba(255, 255, 255, 0.55);
-	font-family: 'Gotu', Arial, Helvetica, sans-serif;
+	font-family: 'Oxygen', Arial, Helvetica, sans-serif;
 	font-size: 16.5pt;
 	font-weight: normal;
 	line-height: 1.75;
@@ -3090,7 +3090,7 @@ body.is-ie .spotlights > section {
 	border-radius: 0;
 	display: block;
 	position: relative;
-	width: 40em;
+	width: 80em;
 }
 
 .spotlights > section > .image img {
@@ -3300,7 +3300,7 @@ table.alt tfoot {
 
 @media screen and (max-width: 736px) {
 	.wrapper > .inner {
-		padding: 3em 2em 1em 2em;
+		padding: 3em 1em 1em 1em;
 	}
 }
 
