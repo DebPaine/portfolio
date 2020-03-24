@@ -204,7 +204,7 @@ body,
 input,
 select,
 textarea {
-	color: rgba(255, 255, 255, 0.55);
+	color: #2c3033;
 	font-family: 'Oxygen', Arial, Helvetica, sans-serif;
 	font-size: 16.5pt;
 	font-weight: normal;
@@ -1926,9 +1926,9 @@ button,
 	transition: border-color 0.2s ease;
 	background-color: transparent;
 	border: solid 1px !important;
-	border-color: rgba(255, 255, 255, 0.281) !important;
+	border-color: #cb2d6f !important;
 	border-radius: 3em;
-	color: #ffffff !important;
+	color: #000000 !important;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.6em;
@@ -2038,8 +2038,10 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
-.button:hover {
-	border-color: rgba(255, 255, 255, 0.55) !important;
+.button:hover,
+.button:hover p {
+	background-color: #cb2d6f !important;
+	color: #ffffff;
 }
 
 input[type="submit"]:hover:after,
@@ -2059,7 +2061,9 @@ input[type="reset"]:hover:active,
 input[type="button"]:hover:active,
 button:hover:active,
 .button:hover:active {
-	border-color: #ffffff !important;
+	border-color: #cb2d6f !important;
+	transform: scale(0.9);
+	transition: ease 0.1s;
 }
 
 input[type="submit"]:hover:active:after,
@@ -2082,7 +2086,7 @@ button:hover:active:after,
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	border-radius: 0.25em;
-	border: solid 1px rgba(255, 255, 255, 0.15);
+	border: solid 1px #294146;
 	background: rgba(255, 255, 255, 0.05);
 	margin: 0 0 2em 0;
 }
@@ -2090,8 +2094,13 @@ button:hover:active:after,
 .features section {
 	padding: 3.5em 3em 1em 7em;
 	width: 50%;
-	border-top: solid 1px rgba(255, 255, 255, 0.15);
+	border-top: solid 1px #294146;
 	position: relative;
+}
+
+.features section h3,
+.features section p {
+	color: #294146;
 }
 
 .features section:nth-child(-n + 2) {
@@ -2099,7 +2108,7 @@ button:hover:active:after,
 }
 
 .features section:nth-child(2n) {
-	border-left: solid 1px rgba(255, 255, 255, 0.15);
+	border-left: solid 1px #1a2723;
 }
 
 .features section .icon {
@@ -2622,7 +2631,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-	color: #ee9c32;
+	color: #cb2d6f;
 }
 
 /* .wrapper.style1-alt .icon.major:before {
@@ -2638,7 +2647,7 @@ input[type="radio"] + label:before {
 } */
 
 .wrapper.style3 .icon.major:before {
-	color: #ee9c32;
+	color: #cb2d6f;
 }
 
 /* .wrapper.style3-alt .icon.major:before {
@@ -3309,7 +3318,7 @@ table.alt tfoot {
 } */
 
 .wrapper.style1 {
-	background-color: #3896c2;
+	background-color: #0f292f;
 }
 
 /* .wrapper.style1-alt {
@@ -3317,7 +3326,7 @@ table.alt tfoot {
 } */
 
 .wrapper.style2 {
-	background-color: #5052b5;
+	background-color: #faf7f7;
 }
 
 /* .wrapper.style2-alt {
@@ -3325,11 +3334,15 @@ table.alt tfoot {
 } */
 
 .wrapper.style3 {
-	background-color: #2e96c7;
+	background-color: #f1f1f1;
 }
 
 .wrapper.style3-alt {
-	background-color: #30bfd8;
+	background-color: #faf7f7;
+}
+.wrapper.style3-alt h2,
+.wrapper.style3-alt h3 {
+	color: #294146;
 }
 
 .wrapper.fullscreen {
@@ -3579,7 +3592,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
 	padding: 2.5em 2.5em 0.5em 2.5em;
-	background: #31245069;
+	background: #0f292f;
 	cursor: default;
 	height: 100vh;
 	left: 0;
@@ -3817,14 +3830,14 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-	background: #3c2c62;
+	background: #0f292f;
 }
 
 #sidebar nav a:after {
-	background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: -moz-linear-gradient(to right, #000000, #cb2d6f);
+	background-image: -webkit-linear-gradient(to right, #000000, #cb2d6f);
+	background-image: -ms-linear-gradient(to right, #000000, #cb2d6f);
+	background-image: linear-gradient(to right, #0f292f, #cb2d6f);
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
@@ -3912,7 +3925,7 @@ body.is-preload #sidebar nav ul li {
 
 	#sidebar nav a:after {
 		background-image: none;
-		background-color: #b74e91;
+		background-color: #cb2d6f;
 	}
 }
 
@@ -3972,7 +3985,7 @@ body.is-preload #sidebar nav ul li {
 
 	#sidebar nav a:after {
 		background-image: none;
-		background-color: #b74e91;
+		background-color: #cb2d6f;
 	}
 }
 
