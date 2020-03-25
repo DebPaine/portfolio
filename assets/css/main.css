@@ -2102,7 +2102,7 @@ button:hover:active:after,
 }
 
 .features section {
-	padding: 3.5em 3em 1em 7em;
+	padding: 1.5em 1em 1.5em 5em;
 	width: 50%;
 	border-top: solid 1px #294146;
 	position: relative;
@@ -2135,8 +2135,8 @@ button:hover:active:after,
 	-ms-transform: scale(1);
 	transform: scale(1);
 	position: absolute;
-	left: 3em;
-	top: 3em;
+	left: 1em;
+	top: 1em;
 	opacity: 1;
 }
 
@@ -2306,7 +2306,7 @@ button:hover:active:after,
 
 @media screen and (max-width: 736px) {
 	.features section {
-		padding: 2.5em 1.5em 0.1em 5.5em;
+		padding: 2.5em 1.5em 1em 5.5em;
 	}
 
 	.features section .icon {
@@ -2317,7 +2317,7 @@ button:hover:active:after,
 
 @media screen and (max-width: 480px) {
 	.features section {
-		padding: 2em 1.5em 0.1em 1.5em;
+		padding: 1em 1.5em 1em 1.5em;
 	}
 
 	.features section .icon {
