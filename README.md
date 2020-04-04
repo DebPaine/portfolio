@@ -1,3 +1,3 @@
 # portfolio
-My portfolio website - https://debpaine.github.io/portfolio/
+My portfolio website - http://debmalyapaine.com
 
