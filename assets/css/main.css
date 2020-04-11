@@ -249,6 +249,29 @@ a {
 	border-bottom-color: transparent;
 }
 
+/* Skill Bar */
+* {
+	box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container {
+	width: 100%; /* Full width */
+	background-color: #ddd; /* Grey background */
+}
+
+.skills {
+	text-align: right; /* Right-align text */
+	padding-top: 1px; /* Add top padding */
+	padding-bottom: 1px; /* Add bottom padding */
+	color: white; /* White text color */
+}
+
+.html {
+	width: 90%;
+	background-color: #4caf50;
+} /* Green */
+
 a:hover {
 	border-bottom-color: transparent;
 	color: #ffffff;
