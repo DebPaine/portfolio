@@ -262,15 +262,50 @@ a {
 
 .skills {
 	text-align: right; /* Right-align text */
-	padding-top: 1px; /* Add top padding */
-	padding-bottom: 1px; /* Add bottom padding */
+	padding-top: 5px; /* Add top padding */
+	padding-bottom: 5px; /* Add bottom padding */
 	color: white; /* White text color */
 }
 
-.html {
+.javascript {
+	width: 100%;
+	background-color: #cb2d6f;
+}
+
+.react {
 	width: 90%;
-	background-color: #4caf50;
-} /* Green */
+	background-color: #cb2d6f;
+}
+
+.redux {
+	width: 80%;
+	background-color: #cb2d6f;
+}
+
+.html {
+	width: 80%;
+	background-color: #cb2d6f;
+}
+
+.css {
+	width: 70%;
+	background-color: #cb2d6f;
+}
+
+.nodejs {
+	width: 75%;
+	background-color: #cb2d6f;
+}
+
+.mongodb {
+	width: 70%;
+	background-color: #cb2d6f;
+}
+
+.postgresql {
+	width: 50%;
+	background-color: #cb2d6f;
+}
 
 a:hover {
 	border-bottom-color: transparent;
