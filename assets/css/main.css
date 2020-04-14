@@ -268,7 +268,7 @@ a {
 }
 
 .javascript {
-	width: 100%;
+	width: 90%;
 	background-color: #cb2d6f;
 }
 
@@ -293,12 +293,12 @@ a {
 }
 
 .nodejs {
-	width: 75%;
+	width: 70%;
 	background-color: #cb2d6f;
 }
 
 .mongodb {
-	width: 70%;
+	width: 65%;
 	background-color: #cb2d6f;
 }
 
