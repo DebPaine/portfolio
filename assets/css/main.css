@@ -1953,6 +1953,12 @@ hr.major {
 	}
 }
 
+#contactme:hover {
+	color: black;
+	text-decoration: underline;
+	transition: ease 0.5s;
+}
+
 /* Box */
 
 .box {
